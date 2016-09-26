@@ -134,7 +134,7 @@ class pottery(resource):
     def __init__(self):
         super(pottery, self).__init__()
         self.type = 'tool'
-        self.name  = 'cloth'
+        self.name  = 'pottery'
         self.reagents = [clay(), water()]
 
 class tools(resource):
@@ -153,9 +153,9 @@ class weapons(resource):
 
 class wine(resource):
     def __init__(self):
-        super(cloth, self).__init__()
+        super(wine, self).__init__()
         self.type = 'manufactured'
-        self.name  = 'cloth'
+        self.name  = 'wine'
         self.reagents = [grapes(), grapes(), grapes()]
 
 class thatching(resource):
